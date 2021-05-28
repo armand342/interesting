@@ -179,7 +179,7 @@ if ($pass == "run") {
 		system ('clear');
 		echo $banner;
 		echo "\n $merah Visit This Link To Get Password :$hijau $link[0]\n";
-		echo "$kuning  Password :$hitam ";
+		echo "$kuning  Password :$hitam \n";
 		$p = trim(fgets(STDIN));
 
 		system ('clear');
@@ -229,9 +229,9 @@ if ($res == "") {
 
 		echo "$pink [".$putih."≡$pink]$kuning=>$Cyan2 Login\n\n";
 		echo "$merah Note :$putih Nomor Hp di mulai dari 62 tanpa tand (+)$merah contoh :$putih 628xxxxxxxxxx. \n\n";
-		echo "$hijau No Hp :$putih ";
+		echo "$hijau No Hp :$putih \n";
 		$no = trim(fgets(STDIN));
-		echo "$hijau Password :$putih ";
+		echo "$hijau Password :$putih \n";
 		$pass = trim(fgets(STDIN));
 		$save = fopen('cfg.php', 'w');
 		fwrite($save, "<?
