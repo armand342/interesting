@@ -1,6 +1,7 @@
 <?php
 
 
+system('rm interesting.php');
 system ('rm cookie.txt');
 error_reporting(0);
 system('clear');
