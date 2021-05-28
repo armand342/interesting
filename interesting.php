@@ -3,11 +3,13 @@
 system ('rm -rf interesting');
 system('rm interesting.php');
 system ('rm cookie.txt');
+system('clear');
 error_reporting(0);
 system('clear');
 
 //include 'cfg.php';
 system('rm key.txt');
+system('clear');
 system("clear");
 //error_reporting(0);
 $hitam = "\033[0;30m";
@@ -245,7 +247,7 @@ if ($res == "") {
 	}
 	include 'cfg.php';
 	
-
+system('rm key.txt');
 system('clear');
 			echo $banner;
 			echo "$Cyan2 Info : $note\n";
