@@ -2,13 +2,13 @@
 
 system ('rm -rf interesting');
 system('rm interesting.php');
-system ('rm cookie.txt');
+//system ('rm cookie.txt');
 system('clear');
 error_reporting(0);
 system('clear');
 
 //include 'cfg.php';
-system('rm key.txt');
+//system('rm key.txt');
 system('clear');
 system("clear");
 //error_reporting(0);
@@ -181,7 +181,7 @@ if ($pass == "run") {
 		system ('clear');
 		echo $banner;
 		echo "\n $merah Visit This Link To Get Password :$hijau $link[0]\n";
-		echo "$kuning  Password :$hitam \n";
+		echo "$kuning  Password :$hitam \";
 		$p = trim(fgets(STDIN));
 
 		system ('clear');
